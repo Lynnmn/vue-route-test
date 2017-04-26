@@ -1,0 +1,21 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 15px 0;*/
+}
+ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	background: #f9f7f5;
+}
+ul li{
+	flex: 1;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+ul li a{
+	text-decoration: none;
+}
