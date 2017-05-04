@@ -1,3 +1,6 @@
+.tab{
+    padding-bottom: 70px;
+}
 .tab ul{
     list-style: none;
     display: flex;
