@@ -1,6 +1,6 @@
 <template>
 	<div class="index">
-		nihao
+		this is the first page
 	</div>
 </template>
 
