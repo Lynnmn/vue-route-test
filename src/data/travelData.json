@@ -1,0 +1,29 @@
+{
+	"travelList":[
+		{
+			"img":"src/images/img/travel-1.png",
+			"percent":"20%",
+			"name":"SWISSgear登山背包"
+		},
+		{
+			"img":"src/images/img/travel-2.png",
+			"percent":"20%",
+			"name":"Swiss拉杆箱"
+		},
+		{
+			"img":"src/images/img/travel-3.png",
+			"percent":"20%",
+			"name":"无线自拍杆"
+		},
+		{
+			"img":"src/images/img/travel-4.png",
+			"percent":"20%",
+			"name":"小米移动电源"
+		},
+		{
+			"img":"src/images/img/travel-5.png",
+			"percent":"20%",
+			"name":"卡西欧数码相机"
+		}
+	]
+}

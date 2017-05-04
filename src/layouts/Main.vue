@@ -10,7 +10,6 @@
 </template>
 
 <script>
-  require('../css/main.css') 
   require('../css/app.css')
   import Index from '../pages/index.vue'
   import Footer from '../components/footer.vue'
