@@ -1,7 +1,7 @@
 .commendImg{
 	width: 100%;
     height: 330px;
-    margin: 16px auto;
+    /*margin: 16px auto;*/
     background: #fff;
     overflow: hidden;
 }
@@ -24,14 +24,15 @@
     border: 1px solid #dcdcdc;
 }
 .commend-main{
-	margin: 20px;
+	margin: 20px 13px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .commend-list{
 	border: 1px solid #eee;
     border-radius: 10px;
     overflow: hidden;
+    padding-bottom: 5px; 
 }
 .commend-list img{
 	width: 175px;
@@ -39,13 +40,24 @@
     background-size: cover;
 }
 .commend-list .desc{
-	padding: 0 10px;
     font-size: 16px;
+    padding: 0 5px;
 }
 .commend-list .rate{
 	color: #999;
+    display: inline-block;
+    padding: 0 5px;
 }
 .commend-list .percent{
 	font-size: 14px;
-    padding: 0 10px;
+}
+.commend-list .join-btn{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: #ff6815;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
 }

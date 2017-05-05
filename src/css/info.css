@@ -1,0 +1,57 @@
+a{
+	
+}
+.link-box{
+	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+}
+.userface{
+	width: 100px;
+	height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.link-box p{
+	position: absolute;
+    top: 20px;
+    left: 130px;
+    color: #333;
+    font-size: 20px;
+}
+.user-link{
+	background: #fff;
+	margin-top: 15px;
+}
+.user-link ul li{
+	height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f2f4f7;
+    padding: 5px 20px;
+}
+.user-link ul li a{
+	text-decoration: none;
+	color: #333;
+}
+.all{
+	color: red;
+}
+.gifts{
+	color: #27ce73;
+}
+.process{
+	color: #2196F3;
+}
+.cry{
+	color: #FF9800;
+}
+.txt{
+	font-size: 18px;
+	margin-left: 20px;
+}
+.more{
+	float: right;
+}

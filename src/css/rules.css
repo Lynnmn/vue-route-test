@@ -1,0 +1,35 @@
+.rules{
+	background: #fff;
+	color: #333;
+}
+.rules .title{
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 0;
+	margin-left: 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.rules .title span:after{
+	font-family: "iconfont";
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	font-size: 22px;
+}
+.rules .title span.down:after{
+	content: '\e6a6';	
+}
+.rules .title span.up:after{
+	content: '\e6a5';
+}
+.rules .content{
+	margin-left: 20px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+.rules .content.hide{
+	display: none;
+}
+.rules .content.show{
+	display: block;
+}
