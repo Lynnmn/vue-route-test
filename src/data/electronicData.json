@@ -1,31 +1,37 @@
 {
 	"electronicList":[
 		{
+			"electronicId":"electronic-1",
 			"img":"src/images/img/electronic-1.png",
 			"percent":"20%",
 			"name":"beatsSolo2耳机"
 		},
 		{
+			"electronicId":"electronic-2",
 			"img":"src/images/img/electronic-2.png",
 			"percent":"20%",
 			"name":"华为手机-mate-9"
 		},
 		{
+			"electronicId":"electronic-3",
 			"img":"src/images/img/electronic-3.png",
 			"percent":"20%",
 			"name":"iPhone7"
 		},
 		{
+			"electronicId":"electronic-4",
 			"img":"src/images/img/electronic-4.png",
 			"percent":"20%",
 			"name":"HTC VR眼镜"
 		},
 		{
+			"electronicId":"electronic-5",
 			"img":"src/images/img/electronic-5.png",
 			"percent":"20%",
 			"name":"MacBook air"
 		},
 		{
+			"electronicId":"electronic-6",
 			"img":"src/images/img/electronic-6.png",
 			"percent":"20%",
 			"name":"科沃斯-扫地机器人"

@@ -1,6 +1,6 @@
 <template>
 	<div class="travel">
-		<router-link to="/info" class="imgList" v-for="item in data"> 
+		<router-link to="/info" class="imgList" v-for="item in data" :to="{  name: 'detail', params: { id: item.ticketId }}"> 
 			<img class="good-img" :src="item.img"/>
 			<div class="right">
 				<p class="good-name">{{item.name}}</p>

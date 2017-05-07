@@ -3,7 +3,7 @@
         <transition :name="transitionName">
             <router-view class="child-view"></router-view>
         </transition>
-        <app-footer></app-footer>
+        <app-footer v-show="isFooter"></app-footer>
     </div>
     
 
@@ -26,6 +26,15 @@
           const toDepth = to.path.split('/').length;
           const fromDepth = from.path.split('/').length;
           this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+      }
+    },
+    methods:{
+      isFooter:function(){
+        let path = location.pathName.split('/')[1];
+        if(path == 'detail'){
+          console.log(false )
+          return false;
+        }
       }
     },
     components:{

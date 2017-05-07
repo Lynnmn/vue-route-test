@@ -1,26 +1,31 @@
 {
 	"ticketList":[
 		{
+			"ticketId":"ticket-1",
 			"img":"src/images/img/ticket-1.png",
 			"percent":"20%",
 			"name":"50元火车票代金券"
 		},
 		{
+			"ticketId":"ticket-2",
 			"img":"src/images/img/ticket-2.png",
 			"percent":"20%",
 			"name":"200元火车票代金券"
 		},
 		{
+			"ticketId":"ticket-3",
 			"img":"src/images/img/ticket-3.png",
 			"percent":"20%",
 			"name":"100元花费"
 		},
 		{
+			"ticketId":"ticket-4",
 			"img":"src/images/img/ticket-4.png",
 			"percent":"20%",
 			"name":"100元火车票代金券"
 		},
 		{
+			"ticketId":"ticket-5",
 			"img":"src/images/img/ticket-5.png",
 			"percent":"20%",
 			"name":"1G流量"

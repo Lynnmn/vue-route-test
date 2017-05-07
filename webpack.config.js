@@ -8,8 +8,11 @@ module.exports = {
     './src/js/index.js'
   ],
   output: {
-    filename: 'bundle.js',
-    publicPath: '/static/'
+    path: path.resolve(__dirname, './static'),
+    publicPath: '/static/',
+    filename: 'bundle.js'
+    // filename: 'bundle.js',
+    // publicPath: '/static/'
   },
   resolve: {
       extensions: ['', '.js', '.json', 'coffee','.vue'],
