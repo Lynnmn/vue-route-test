@@ -26,7 +26,7 @@
 </template>
 
 <script>
-	import style from '../css/tabContent.css'
+	require('../css/tabContent.css')
 	import data from '../data/travelData.json'
 
 	export default {

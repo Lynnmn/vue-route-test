@@ -11,7 +11,7 @@
 
 
 <script>
-    import style from '../css/footer.css';
+    require('../css/footer.css')
 
     export default{
         data:function(){

@@ -1,5 +1,5 @@
 <template>
-    <div class="info">
+    <div class="myinfo">
         <div class="user-info">
             <router-link to="/homeUserInfo/123" class="link-box clearfix" >
                 <img src="/src/images/img/info.jpg" class="userface">

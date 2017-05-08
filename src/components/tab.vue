@@ -15,7 +15,7 @@
 </template>
 
 <script>
-	import style from '../css/tab.css'
+	require('../css/tab.css')
 	import travel from '../components/travel.vue'
 	import electronic from '../components/electronic.vue'
 	import ticket from '../components/ticket.vue'

@@ -3,7 +3,7 @@
         <transition :name="transitionName">
             <router-view class="child-view"></router-view>
         </transition>
-        <app-footer v-show="isFooter"></app-footer>
+        <app-footer></app-footer>
     </div>
     
 
@@ -13,7 +13,7 @@
   require('../css/app.css')
   import Index from '../pages/index.vue'
   import Footer from '../components/footer.vue'
-  import Header from '../components/header.vue'
+  // import Header from '../components/header.vue'
 
   export default {
     data:function(){
@@ -28,17 +28,8 @@
           this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
       }
     },
-    methods:{
-      isFooter:function(){
-        let path = location.pathName.split('/')[1];
-        if(path == 'detail'){
-          console.log(false )
-          return false;
-        }
-      }
-    },
     components:{
-        appHeader:Header,
+        // appHeader:Header,
         appFooter:Footer,
         appIndex:Index
     }

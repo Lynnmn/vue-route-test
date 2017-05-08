@@ -23,7 +23,7 @@
 
 <script>
 	import recommendData from '../data/recommendData.json'
-	import style from '../css/recommendImg.css'
+	require('../css/recommendImg.css')
 
 	export default {
 		data: function(){

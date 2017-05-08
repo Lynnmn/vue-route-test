@@ -1,6 +1,6 @@
 <template>
 	<div class="travel">
-		<router-link to="/info" class="imgList" v-for="item in data" :to="{  name: 'detail', params: { id: item.electronicId }}">
+		<router-link class="imgList" v-for="item in data" :to="{  name: 'detail', params: { id: item.electronicId }}">
 			<img class="good-img" :src="item.img"/>
 			<div class="right">
 				<p class="good-name">{{item.name}}</p>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-	import style from '../css/tabContent.css'
+	require('../css/tabContent.css')
 	import data from '../data/electronicData.json'
 
 	export default {
