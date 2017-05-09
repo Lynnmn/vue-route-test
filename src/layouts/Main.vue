@@ -11,7 +11,7 @@
 
 <script>
   require('../css/app.css')
-  // import Index from '../pages/index.vue'
+  import Index from '../pages/index.vue'
   import Footer from '../components/footer.vue'
   // import Header from '../components/header.vue'
 
@@ -21,6 +21,12 @@
             transitionName: 'slide-left'
         }
     },
+    created:function(){
+        if(this.$route.name==undefined){
+            this.$router.push('index');
+        }
+
+        },
     watch: {
       '$route' (to, from) {
           const toDepth = to.path.split('/').length;
@@ -30,7 +36,8 @@
     },
     components:{
         // appHeader:Header,
-        appFooter:Footer
+        appFooter:Footer,
+        appIndex:Index
     }
   }
 </script>

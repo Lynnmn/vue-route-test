@@ -50,7 +50,7 @@ const routes = [
 
 const router = new VueRouter({
     // mode:'history', //这样url就没有/#/XXX,而是常见的url形式
-    base: __dirname,
+    // base: __dirname,
     routes:routes, // short for routes: routes
     linkActiveClass:'active',     //router-link的选中状态的class，也有一个默认的值
     history:true

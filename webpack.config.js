@@ -3,16 +3,14 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    'webpack/hot/dev-server',
-    'webpack-dev-server/client?http://localhost:8080',
+    // 'webpack/hot/dev-server',
+    // 'webpack-dev-server/client?http://localhost:8080',
     './src/js/index.js'
   ],
   output: {
     path: path.resolve(__dirname, './static'),
     publicPath: '/static/',
     filename: 'bundle.js'
-    // filename: 'bundle.js',
-    // publicPath: '/static/'
   },
   resolve: {
       extensions: ['', '.js', '.json', 'coffee','.vue'],
