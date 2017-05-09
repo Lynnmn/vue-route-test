@@ -6,7 +6,7 @@
 			<span class="line"></span>
 		</div>
 		<div class="commend-main">
-			<div class="commend-list" v-for="item in data">
+			<router-link class="commend-list" v-for="item in data" :to="{  name: 'detail', params: { id: item.id }}">
 				<img class="img" :src="item.img" />
 		        <p class="desc">{{item.name}}</p>
 		        <div class="rate">
@@ -15,21 +15,28 @@
 		            </div>
 		            <span class="percent">揭晓进度：<span>{{item.percent}}</span></span>
 		        </div>
-		        <div class="join-btn">参与</div>
-			</div>
+		        <div class="join-btn" v-on:click.stop.prevent="order(item.id)">参与</div>
+			</router-link>
 		</div>
 	</div>
 </template>
 
 <script>
-	import recommendData from '../data/recommendData.json'
+	import data from '../data/recommendData.json'
 	require('../css/recommendImg.css')
 
 	export default {
 		data: function(){
 			return{
-				data:recommendData.recommendList
+				data:data.recommendList
 			} 
+		},
+		methods:{
+			order:function(id){
+				this.$router.push({ name: 'order', params: { gId: id }});
+				return false;
+			}
+			
 		}
 	}
 </script>

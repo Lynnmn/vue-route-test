@@ -1,11 +1,13 @@
 {
 	"recommendList":[
 		{
+			"id":"recommend-1",
 			"img":"src/images/img/1.png",
 			"percent":"20%",
 			"name":"大疆无人机"
 		},
 		{
+			"id":"recommend-2",
 			"img":"src/images/img/2.png",
 			"percent":"20%",
 			"name":"Apple-ipad-Air2"

@@ -1,0 +1,43 @@
+.award-list{
+	background: #fff;
+	padding: 20px 0;
+}
+.award-list .period{
+    width: 90px;
+    height: 26px;
+    background: url(/src/images/img/period.png);
+    display: inline-block;
+    padding-left: 30px;
+    box-sizing: border-box;
+    line-height: 26px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+.award-list .award-time{
+	margin-left: 20px;
+	color: #999;
+}
+.award-list .img{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+}
+.award-list .top{
+	margin-bottom: 10px;
+}
+.award-list .bottom{
+	padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.award-list .right{
+	width: 250px;
+	font-size: 15px;
+	color: #999;
+}
+.award-list .right > p:nth-child(1){
+    color: #ff6815;
+    font-size: 17px;
+    margin-bottom: 10px;
+}

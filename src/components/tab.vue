@@ -11,7 +11,6 @@
 			<component :is="currentView" keep-alive></component>
 		</div>
 	</div>
-
 </template>
 
 <script>

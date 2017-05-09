@@ -19,7 +19,7 @@
 					<span>:</span>
 					<span>08</span>
 				</div>
-				<div class="one-join">1元参与</div>
+				<div class="one-join" v-on:click.stop.prevent="order(item.ticketId)">1元参与</div>
 			</div>
 		</router-link>
 	</div>
@@ -28,6 +28,7 @@
 <script>
 	require('../css/tabContent.css')
 	import data from '../data/ticketData.json'
+	// import timedown from '../components/timedown.vue'
 
 	export default {
 		data: function(){
@@ -35,8 +36,14 @@
 				data:data.ticketList
 			}
 		},
+		methods:{
+			order:function(id){
+				this.$router.push({ name: 'order', params: { gId: id }});
+				return false;
+			}
+		},
 		components:{
-
+			// timeDown: timedown
 		}
 		
 	}

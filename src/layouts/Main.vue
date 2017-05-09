@@ -11,7 +11,7 @@
 
 <script>
   require('../css/app.css')
-  import Index from '../pages/index.vue'
+  // import Index from '../pages/index.vue'
   import Footer from '../components/footer.vue'
   // import Header from '../components/header.vue'
 
@@ -30,8 +30,7 @@
     },
     components:{
         // appHeader:Header,
-        appFooter:Footer,
-        appIndex:Index
+        appFooter:Footer
     }
   }
 </script>

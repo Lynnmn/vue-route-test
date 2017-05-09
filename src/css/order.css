@@ -1,0 +1,128 @@
+.order{
+	background: #fff;
+}
+.name{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 20px;
+    color: #333;
+    line-height: 60px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.count{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 18px;
+    color: #333;
+    padding-left: 25px;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.number:nth-child(1){
+	display: inline-block;
+	padding:3px;
+}
+.number > span:nth-child(2){
+	font-size: 14px;
+	color: #999;
+}
+.number > p{
+	font-size: 16px;
+	color: #999;
+}
+.add{
+    height: 35px;
+    border: 1px solid #ff6815;
+    border-radius: 10px;
+    line-height: 35px;
+    font-size: 0;
+    color: #666;
+    margin-right: 20px;
+}
+.add > span{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #ff6815;
+}
+.add > span.num{
+	font-size: 20px;
+	color: #666;
+}
+.add .jian,.add .jia{
+    font-size: 20px;
+    color: #ff6815;
+}
+.add > span:nth-child(3){
+	border: none;
+}
+.order .phone,.order .rules{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 20px;
+	color: #333;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.order .phone, .order .rules{
+	line-height: 60px;
+}
+.phonenum{
+	width: 250px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	padding: 15px;
+}
+.order .rules{
+	-webkit-box-shadow:0 1px 4px #dcdee1;
+	box-shadow: 0 1px 4px #dcdee1;
+	overflow: hidden;
+}
+.order .rules .iconfont{
+	float: right;
+	margin-right: 20px;
+}
+.order .desc{
+    background: #f2f4f7;
+    padding: 20px;
+    line-height: 23px;
+}
+.order .bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0;
+}
+.order .bottom > div{
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+}
+.order div.price{
+    width: 40%;
+    background: #fff;
+    color: #ff6815;
+}
+.order div.price span:nth-child(1){
+    font-size: 20px;
+}
+.order .btn{
+    width: 60%;
+    background: #ff6815;
+    color: #fff;
+}

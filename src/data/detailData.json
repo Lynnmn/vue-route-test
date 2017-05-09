@@ -1,4 +1,28 @@
 {
+	"recommend":[
+		{
+			"recommendId":"recommend-1",
+			"img":"src/images/imgInfo/r-recommend-1.png",
+			"percent":"20%",
+			"period":"第一期",
+			"name":"大疆无人机",
+			"drawNum":"100001",
+			"status":"进行中",
+			"total":"200人次",
+			"remain":"160人次"
+		},
+		{
+			"recommendId":"recommend-1",
+			"img":"src/images/imgInfo/r-recommend-2.png",
+			"percent":"20%",
+			"period":"第一期",
+			"name":"Apple-ipad-Air2",
+			"drawNum":"100001",
+			"status":"进行中",
+			"total":"200人次",
+			"remain":"160人次"
+		}
+	],
 	"travel":[
 		{
 			"travelId":"travel-1",

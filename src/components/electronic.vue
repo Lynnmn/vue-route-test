@@ -19,7 +19,7 @@
 					<span>:</span>
 					<span>08</span>
 				</div>
-				<div class="one-join">1元参与</div>
+				<div class="one-join" v-on:click.stop.prevent="order(item.electronicId)">1元参与</div>
 			</div>
 		</router-link>
 	</div>
@@ -33,6 +33,12 @@
 		data: function(){
 			return{
 				data:data.electronicList
+			}
+		},
+		methods:{
+			order:function(id){
+				this.$router.push({ name: 'order', params: { gId: id }});
+				return false;
 			}
 		},
 		components:{

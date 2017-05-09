@@ -8,9 +8,10 @@ import Index from '../pages/index';
 import Rules from '../pages/rules';
 import Info from '../pages/info';
 import Detail from '../pages/detail';
+import DetailPage from '../components/detailPage';
 import Record from '../pages/record';
-// import MyPet from '../page/myPet';
-// import AddPet from '../page/addPet';
+import GetDraw from '../pages/getDraw';
+import Order from '../pages/order';
 
 Vue.use(VueRouter);
 
@@ -24,21 +25,25 @@ const routes = [
 
             { path: '/info', name:'info', component: Info},
 
-            // { path: '/detail/:id', name:'detail', component: Detail },
-
-            // { path:'/detail/:id/record', name:'record', component : Record},
-
-            // { path:'/home/mypet', name:'myPet', component : MyPet},
-
-            // { path:'/home/mypet/addpet', name:'addPet', component : AddPet},
+            
 
         ]
     },
-    { path: '/detail/:id', name:'detail', component: Detail,
+    {
+        path:'/detail', component: Detail,
         children: [
-            { path:'/detail/:id/record', name:'record', component : Record}
+            { path: '/detail/:id', name:'detail', component: DetailPage },
+
+            { path:'/detail/:id/record', name:'record', component : Record },
+
+            { path:'/detail/:id/getDraw', name:'getDraw', component : GetDraw },
+
         ]
-    }
+    },
+    
+    { path: '/info/record', name:'record', component: Record },
+
+    { path: '/order/:gId', name:'order', component: Order }
 ];
 
 

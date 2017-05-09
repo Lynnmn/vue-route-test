@@ -1,0 +1,40 @@
+.record .iconfont{
+    position: absolute;
+    font-size: 30px;
+    font-size: 30px!important;
+    color: #999;
+}
+.record-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.record-list .img{
+    width: 85px;
+    height: 85px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+}
+.record-list .right{
+	width: 250px;
+}
+.record-list .right > p:nth-child(1){
+	color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.record-list .right > p:nth-child(2){
+	color: #999;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.record-list .right > p:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+.record-list .right > p > span:nth-child(1){
+	color: #ff6815;
+}
