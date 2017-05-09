@@ -15,9 +15,9 @@
 			</div>
 		</div>
 		<div class="phone">手机号码：<input type="text" name="" class="phonenum" value="" placeholder="请输入手机号码" maxlength="11" /> </div>
-		<div class="rules">
+		<div class="rules" @click="showRules">
 			<span>活动说明</span>
-			<span class="iconfont" :class=" show ? 'icon-less' : 'icon-moreunfold' " @click="showRules"></span>
+			<span class="iconfont" :class=" show ? 'icon-less' : 'icon-moreunfold' " ></span>
 		</div>
 		<div class="desc" v-show="show">
 			 <p>1、查看中奖信息：点击“我的”查看参与记录及中奖纪录；</p>
